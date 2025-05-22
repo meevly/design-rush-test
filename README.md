@@ -23,12 +23,13 @@ A simple Laravel + Blade application. For the backend, I've used a service/repos
 
 Since the task description is pretty vague and the project itself could be vastly more professional, there's tons of place for improvements, such as:
 
-- More professional design
-- Showing categories in a dropdown or other more appealing way
-- Images could have `srcset` attribute to support more responsiveness
-- Category links in vendor loop component should lead to category page
-- Infinite loading of vendors or pagination
+- More professional design.
+- Showing categories in a dropdown or other more appealing way.
+- Images could have `srcset` attribute to support more responsiveness.
+- Category links in vendor loop component should lead to category page.
+- Infinite loading of vendors or pagination.
 - Adding Unit tests, however at the moment there are no service classes in the app, so there's nothing to test. Testing repository classes/methods would be pointless and would benefit from integration testing but that would go beyond a small scope of test task.
+- Adding exceptions with exceptions handling when a category or vendor by slug doesn't exist.
 
 ## Requirements Met
 
